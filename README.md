@@ -1,4 +1,4 @@
-# THE JOURNEY — Photorealistic 3D Space Portfolio
+# THE JOURNEY - Photorealistic 3D Space Portfolio
 
 <div align="center">
 
@@ -11,7 +11,7 @@
 
 An award-level 3D portfolio website with a photorealistic, physically grounded space theme. The visitor travels through the Solar System like a spacecraft: weighted inertial camera motion, true vacuum lighting, real astronomical star data, and zero game/sci-fi cliches.
 
-[Live Demo](#) · [Report Bug](#) · [Request Feature](#)
+[Live Demo](https://the-journey-photorealistic-3-d-spac.vercel.app/)
 
 </div>
 
@@ -88,7 +88,7 @@ The experience is designed as a calm, cinematic voyage across 5 celestial waypoi
 All portfolio content is decoupled from 3D logic. Everything can be edited in a single file at the root of the project:
 
 ```
-👉 settings.json
+settings.json
 ```
 
 ```json
