@@ -1,3 +1,4 @@
+<div align="center">
 # THE JOURNEY - Photorealistic 3D Space Portfolio
 
 <div align="center">
