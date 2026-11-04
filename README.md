@@ -1,5 +1,7 @@
-<div align="center" style="font-weight: bold; font-size: 24px;">
-THE JOURNEY - Photorealistic 3D Space Portfolio
+<div align="center">
+  <h1 style="font-size: 2em; font-weight: 600; padding-bottom: 0.3em; border-bottom: 1px solid #d0d7de; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+    THE JOURNEY - Photorealistic 3D Space Portfolio
+  </h1>
 </div>
 <div align="center">
 
