@@ -1,6 +1,6 @@
 <div align="center">
 # THE JOURNEY - Photorealistic 3D Space Portfolio
-
+</div>
 <div align="center">
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue.svg?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
