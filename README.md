@@ -1,5 +1,5 @@
-<div align="center">
-# THE JOURNEY - Photorealistic 3D Space Portfolio
+<div align="center" style="font-weight: bold; font-size: 24px;">
+THE JOURNEY - Photorealistic 3D Space Portfolio
 </div>
 <div align="center">
 
