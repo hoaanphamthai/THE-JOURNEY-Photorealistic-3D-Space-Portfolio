@@ -1,0 +1,143 @@
+{
+  "personal": {
+    "brand": "AN",
+    "name": "Phạm Thái Hòa An",
+    "role": "Creative Developer · WebGL / Three.js",
+    "tagline": "I build calm, physically grounded interfaces for the web.",
+    "location": "Ho Chi Minh City, Vietnam",
+    "email": "hello@example.com"
+  },
+  "seo": {
+    "title": "Phạm Thái Hòa An — Creative Developer",
+    "description": "A photorealistic journey through the Solar System. Portfolio of a WebGL / Three.js creative developer.",
+    "url": "https://example.com",
+    "image": "/og.jpg"
+  },
+  "navigation": [
+    { "id": "hero", "label": "Earth" },
+    { "id": "about", "label": "Moon" },
+    { "id": "projects", "label": "Station" },
+    { "id": "skills", "label": "Saturn" },
+    { "id": "contact", "label": "Contact" }
+  ],
+  "sections": {
+    "hero": {
+      "eyebrow": "01 — Low Earth orbit · 408 km",
+      "scrollHint": "Scroll to begin descent"
+    },
+    "about": {
+      "eyebrow": "02 — Lunar flyby · 384,400 km",
+      "heading": "About",
+      "bio": [
+        "I design and engineer real-time 3D experiences that put restraint before spectacle: real light, real scale, honest motion.",
+        "Over the last years I have shipped interactive commerce, data visualisation and brand sites where frame time is treated as a design constraint, not an afterthought."
+      ],
+      "stats": [
+        { "label": "Years shipping WebGL", "value": "7" },
+        { "label": "Projects launched", "value": "40+" },
+        { "label": "Target frame budget", "value": "16.6 ms" }
+      ]
+    },
+    "projects": {
+      "eyebrow": "03 — Orbital station · 408 km",
+      "heading": "Selected work",
+      "lede": "Each module carries one project. Select a panel to open the case study.",
+      "items": [
+        {
+          "id": "orbital-commerce",
+          "title": "Orbital Commerce",
+          "category": "E-commerce · 3D configurator",
+          "year": "2025",
+          "summary": "A product configurator rendered with physically based materials and streamed KTX2 textures.",
+          "description": [
+            "Real-time PBR configurator for a denim brand: fabric weave normal maps, stitch displacement and accurate indigo scattering.",
+            "Texture streaming cut initial payload by 71%, and an adaptive quality manager keeps mid-range phones above 30 fps."
+          ],
+          "stack": ["three.js", "KTX2", "GSAP", "Vite"],
+          "image": "/assets/projects/orbital-commerce.webp",
+          "link": "https://example.com"
+        },
+        {
+          "id": "telemetry-dash",
+          "title": "Telemetry Dashboard",
+          "category": "Data visualisation",
+          "year": "2024",
+          "summary": "GPU-instanced visualisation of 2M sensor readings with sub-millisecond picking.",
+          "description": [
+            "InstancedMesh + data textures move all aggregation to the GPU; the JS thread only uploads deltas.",
+            "Accessible fallbacks render the same data as semantic tables for screen readers."
+          ],
+          "stack": ["WebGL2", "TypeScript", "Web Workers"],
+          "image": "/assets/projects/telemetry-dash.webp"
+        },
+        {
+          "id": "lunar-atlas",
+          "title": "Lunar Atlas",
+          "category": "Education · Mapping",
+          "year": "2024",
+          "summary": "An interactive Moon globe built on LRO LOLA elevation data.",
+          "description": [
+            "Tiled displacement maps at 16 levels of detail; terrain shading follows the real Sun position for any date.",
+            "Built with a floating-origin camera so surface flybys stay jitter-free."
+          ],
+          "stack": ["three.js", "GLSL", "Draco"],
+          "image": "/assets/projects/lunar-atlas.webp"
+        },
+        {
+          "id": "quiet-type",
+          "title": "Quiet Type",
+          "category": "Typography · Micro-site",
+          "year": "2023",
+          "summary": "A type specimen site where every reveal is tied to scroll velocity.",
+          "description": [
+            "Split-text line reveals, magnetic controls and a custom cursor, all transform/opacity-only for 60 fps on low-end devices."
+          ],
+          "stack": ["GSAP", "Lenis", "CSS"],
+          "image": "/assets/projects/quiet-type.webp"
+        }
+      ]
+    },
+    "skills": {
+      "eyebrow": "04 — Saturn · 1.27 billion km",
+      "heading": "Skills",
+      "items": [
+        { "name": "three.js", "level": 0.95, "group": "graphics" },
+        { "name": "GLSL", "level": 0.9, "group": "graphics" },
+        { "name": "WebGPU", "level": 0.6, "group": "graphics" },
+        { "name": "PBR / Lighting", "level": 0.85, "group": "graphics" },
+        { "name": "TypeScript", "level": 0.92, "group": "core" },
+        { "name": "React", "level": 0.8, "group": "core" },
+        { "name": "Node.js", "level": 0.75, "group": "core" },
+        { "name": "GSAP", "level": 0.88, "group": "core" },
+        { "name": "Vite", "level": 0.85, "group": "tooling" },
+        { "name": "Blender", "level": 0.65, "group": "tooling" },
+        { "name": "KTX2 / Draco", "level": 0.8, "group": "tooling" },
+        { "name": "Performance", "level": 0.9, "group": "tooling" }
+      ]
+    },
+    "contact": {
+      "eyebrow": "05 — Deep space",
+      "heading": "Let's build something quiet and vast.",
+      "copiedBadge": "Copied",
+      "socials": [
+        { "label": "GitHub", "url": "https://github.com/" },
+        { "label": "LinkedIn", "url": "https://linkedin.com/" },
+        { "label": "X", "url": "https://x.com/" }
+      ],
+      "footerCredit": "Textures: Solar System Scope (CC BY 4.0) · Star data: HYG Database (CC BY-SA 2.5) · Built with three.js"
+    }
+  },
+  "ui": {
+    "skipToContent": "Skip to content",
+    "skip3d": "Simple view (no 3D)",
+    "audioOn": "Audio on",
+    "audioOff": "Audio off",
+    "cursorView": "View",
+    "overlayClose": "Close ×",
+    "telemetry": {
+      "rangeLabel": "RANGE · EARTH CTR",
+      "velocityLabel": "VELOCITY",
+      "locationLabel": "LOCATION"
+    }
+  }
+}
